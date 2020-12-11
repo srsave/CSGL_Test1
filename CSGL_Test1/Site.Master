@@ -24,15 +24,15 @@
     <header>
         <div class="content-wrapper">
             <div class="float-left">
-                <p class="site-title"><a runat="server" href="~/">your logo here</a></p>
+                <p class="site-title"><a runat="server" href="~/"><img src="Images/icici-bank-logo.jpg" /></a></p>
             </div>
             <div class="float-right">
                 <section id="login">
                     <asp:LoginView runat="server" ViewStateMode="Disabled">
                         <AnonymousTemplate>
                             <ul>
-                                <li><a id="registerLink" runat="server" href="~/Account/Register.aspx">Register</a></li>
-                                <li><a id="loginLink" runat="server" href="~/Account/Login.aspx">Log in</a></li>
+                                <li><%--<a id="registerLink" runat="server" href="~/Account/Register.aspx">Register</a>--%></li>
+                                <li><%--<a id="loginLink" runat="server" href="~/Account/Login.aspx">Log in</a>--%></li>
                             </ul>
                         </AnonymousTemplate>
                         <LoggedInTemplate>
