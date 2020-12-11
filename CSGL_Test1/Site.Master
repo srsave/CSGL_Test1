@@ -24,7 +24,7 @@
     <header>
         <div class="content-wrapper">
             <div class="float-left">
-                <p class="site-title"><a runat="server" href="~/"><img src="Images/icici-bank-logo.jpg" /></a></p>
+                <p class="site-title"><a runat="server" href="~/"></a></p>
             </div>
             <div class="float-right">
                 <section id="login">
